@@ -6,7 +6,7 @@ using System.Linq;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// skapar metod för swagger 
+// Skapar metod för swagger 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
